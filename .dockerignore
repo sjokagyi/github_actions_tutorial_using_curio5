@@ -1,0 +1,43 @@
+# Ignore Python bytecode and virtual environments
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+env/
+venv/
+venv/*
+
+# Ignore unnecessary system files
+.DS_Store
+*.log
+*.sqlite3
+
+# Ignore local Postgres data (if stored in a local folder)
+pgdata/
+
+# Ignore Node.js dependencies and build files
+node_modules/
+package-lock.json
+build/
+dist/
+
+# Ignore sensitive files
+.env
+*.pem
+
+# Ignore local Redis data (if stored in a local folder)
+redisdata/
+
+# Ignore Celery beat schedule file (if applicable)
+celerybeat-schedule
+
+# Ignore other temp files
+*.swp
+*.tmp
+*.bak
+*.backup
+
+# Ignore NGINX logs and temp files
+nginx/logs/
+nginx/temp/

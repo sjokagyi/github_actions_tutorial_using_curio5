@@ -1,0 +1,7 @@
+session_id,student_id,test_id,start_time,end_time,total_marks,answer_id,question_id,selected_choice_id,text_answer,is_fill_in_correct,test_title,course_id,programme_id,grade_id,term_id
+10,3,21,2024-07-28 14:21:35.897336+00:00,2024-07-28 14:49:38.248721+00:00,2,1,14,30,,False,Semiconductor Devices 8,1,1,1,1
+10,3,21,2024-07-28 14:21:35.897336+00:00,2024-07-28 14:49:38.248721+00:00,2,2,15,35,,False,Semiconductor Devices 8,1,1,1,1
+11,3,22,2024-07-28 15:06:17.082435+00:00,2024-07-28 15:06:28.783491+00:00,2,3,16,38,,False,Semiconductor Devices 9,1,1,1,1
+11,3,22,2024-07-28 15:06:17.082435+00:00,2024-07-28 15:06:28.783491+00:00,2,4,17,43,,False,Semiconductor Devices 9,1,1,1,1
+12,3,23,2024-07-28 15:20:29.380521+00:00,2024-07-28 15:20:42.926349+00:00,5,5,18,47,,False,Semiconductor Devices 10,1,1,1,1
+13,3,24,2024-07-28 16:41:58.241999+00:00,2024-07-28 16:42:16.421147+00:00,1,6,19,50,,False,Se,1,1,1,1
