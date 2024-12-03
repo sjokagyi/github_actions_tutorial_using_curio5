@@ -85,7 +85,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
         image: sjokagyi/github_actions_tutorial_using_curio5
-        tag: v1, latest
+        tags: v1, latest
         registry: docker.io
         dockerfile: server/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
