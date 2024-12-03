@@ -6,8 +6,17 @@ on:
   pull_request:
     branches: [ "develop" ]
 
+permissions:
+  contents: read
+
+
 jobs:
   build:
+    permissions:
+      # To write linting fixes
+      contents: write
+      # To write Super-linter status checks
+      statuses: write
     runs-on: ${{ matrix.os }}   # It is used to select the os for the build. 
     strategy:
       max-parallel: 4           # It is used to set the maximum number of jobs that can run simultaneously.
