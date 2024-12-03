@@ -13,7 +13,8 @@ jobs:
       max-parallel: 4           # It is used to set the maximum number of jobs that can run simultaneously.
       matrix:                   # It is used to declare a list of values for which the pipeline should work on. This can be used to create different workflows for different environments using one workflow. 
         python-version: [3.10, 3.11, 3.12]  # This lets me run the pipeline on different python versions.
-        os: [ubuntu-latest, windows-latest, macos-latest] # This lets me run the pipeline on different OS versions.
+        os: [ubuntu-latest] # This lets me run the pipeline on different OS versions.
+       # os: [ubuntu-latest, windows-latest, macos-latest] # This lets me run the pipeline on different OS versions.
 
     steps:
     - name: Checkout repository
