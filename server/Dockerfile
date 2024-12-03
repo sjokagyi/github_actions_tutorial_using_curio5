@@ -15,7 +15,7 @@ ENV PYTHONUNBUFFERED 1
 RUN pip install --upgrade pip
 
 # Copy path to requirements.txt
-COPY ./src/requirements.txt .
+COPY ./requirements.txt ./requirements.txt
 
 # Install dependencies
 RUN pip install -r requirements.txt
@@ -24,7 +24,7 @@ RUN pip install -r requirements.txt
 #RUN python manage.py collectstatic --noinput
 
 # Copy all the rest of the backend files 
-COPY ./src/ .
+COPY ./ ./
 
 # Command to run the application with Gunicorn
 CMD ["gunicorn", "curio4.wsgi:application", "--bind", "0.0.0.0:8000"]
